@@ -45,6 +45,27 @@ a {
     border: 5px solid #fff;
 }
 
+nav.header {
+    display: flex;
+    justify-content:space-between;
+    padding:10px;
+}
+
+nav a {
+    padding: 0px 10px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+nav div {
+    padding:10px;
+}
+
 nav {
     background-color: #fff;
 }
@@ -73,11 +94,4 @@ nav ul {
 
 .contact-btn a:active {
     top: 2px;
-}
-
-nav a {
-    height: 60px;
-    line-height: 60px;
-    color: #204156;
-    text-decoration: none;
 }
